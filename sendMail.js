@@ -14,7 +14,7 @@ module.exports = sendMail = async (from, subject, body, attachments) => {
     const transporter = createTransport(nodemailerOptions);
     const mailOptions = {
       from, // sender address (who sends)
-      to: 'Adevgunner@gmail.com', // list of receivers (who receives)
+      to: 'devclub57@gmail.com', // list of receivers (who receives)
       subject, // Subject lineaa
       text: body, // html body
       attachments,

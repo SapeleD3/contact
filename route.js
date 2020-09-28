@@ -7,7 +7,6 @@ var upload = multer();
 router.post('/', upload.none(), async function (req, res) {
   try {
     const { message, name, email } = req.body;
-    //devclub57@gmail.com
     const from = email;
     const subject = `Messgage from - ${name}`;
     const body = message;
